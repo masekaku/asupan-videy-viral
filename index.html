@@ -24,101 +24,102 @@
     
     <!-- Embedded CSS -->
     <style>
-        /* Reset default styles for consistency */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    /* Reset default styles for consistency */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-        /* Basic styling with a Hitchhiker's Guide vibe */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f0f8ff; /* Alice Blue for a cosmic feel */
-        }
+    /* Basic styling with a cleaner, modern palette */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background-color: #f9fafb; /* Lebih bersih dari Alice Blue */
+    }
 
-        header {
-            background-color: #2f4f4f; /* Dark Slate Gray for a spacey header */
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
+    header {
+        background-color: #1e293b; /* Slate-800 */
+        color: #f8fafc; /* Zinc-50 */
+        text-align: center;
+        padding: 1rem;
+    }
 
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    nav a {
+        color: #f8fafc;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: #38bdf8; /* Sky-400 */
+    }
+
+    main {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+
+    section, article {
+        margin-bottom: 2rem;
+    }
+
+    h1, h2, h3 {
+        color: #0f766e; /* Teal-700 */
+    }
+
+    /* Style for video links */
+    .video-list {
+        list-style: none;
+    }
+
+    .video-list li {
+        margin: 1rem 0;
+    }
+
+    .video-list a {
+        color: #2563eb; /* Blue-600 */
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    .video-list a:hover {
+        text-decoration: underline;
+        color: #3b82f6; /* Blue-500 */
+    }
+
+    footer {
+        background-color: #1e293b;
+        color: #f8fafc;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer a {
+        color: #60a5fa; /* Blue-400 */
+    }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
         nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
+            flex-direction: column;
+            gap: 0.5rem;
         }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        section, article {
-            margin-bottom: 2rem;
-        }
-
-        h1, h2, h3 {
-            color: #006400; /* Dark Green for a quirky, sci-fi vibe */
-        }
-
-        /* Style for video links */
-        .video-list {
-            list-style: none;
-        }
-
-        .video-list li {
-            margin: 1rem 0;
-        }
-
-        .video-list a {
-            color: #add8e6; /* Light Blue for links */
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
-
-        .video-list a:hover {
-            text-decoration: underline;
-            color: #00b7eb; /* Brighter blue on hover */
-        }
-
-        footer {
-            background-color: #2f4f4f;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer a {
-            color: #add8e6;
-        }
-
-        /* Responsive design */
-        @media (max-width: 600px) {
-            nav ul {
-                flex-direction: column;
-                gap: 0.5rem;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
     <header>
@@ -1878,7 +1879,7 @@
     </main>
     
     <footer>
-        <p>© [Year] [Your Name/Organization]. All rights reserved.</p>
+        <p>© 2025 Asupan Videy. All rights reserved.</p>
         <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
     </footer>
     
